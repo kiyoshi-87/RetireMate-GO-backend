@@ -1,0 +1,14 @@
+{
+    "email": "user@example.com",
+    "total_expenses": "5000",
+    "total_earnings": "8000",
+    "estimated_networth": "120000",
+    "targeted_networth": "200000",
+    "cashflow": "3000",
+    "stocks": "50000",
+    "real_estate": "150000",
+    "gold": "10000",
+    "fd": "30000",
+    "fd_interests": "2000",
+    "time_to_retire": "10 years"
+}
