@@ -38,12 +38,12 @@ func init() {
 		log.Fatal(err)
 	}
 
-	fmt.Println("MongoDB is succesfully connected!")
+	fmt.Println("MongoDB is successfully connected!")
 	collection = client.Database(dbName).Collection(collectionName)
 }
 
 func Home(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("API RUNNING SUCCESFULLY!"))
+	w.Write([]byte("API RUNNING SUCCESSFULLY!"))
 }
 
 func CreateUser(w http.ResponseWriter, r *http.Request) {
@@ -69,7 +69,7 @@ func GetUserData(w http.ResponseWriter, r *http.Request) {
 
 	filter := bson.M{"email": email}
 	var data bson.M
-	err := collection.FindOne(context.TODO(), filter).Decode(&data) //All the data is embeded in the form of bson inside the variable data
+	err := collection.FindOne(context.TODO(), filter).Decode(&data) //All the data is embedded in the form of bson inside the variable data
 
 	if err != nil {
 		log.Fatal(err)
