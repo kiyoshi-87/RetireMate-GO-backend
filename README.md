@@ -84,7 +84,7 @@ Any contribution from the community is welcome! Before you start contributing, p
 
 ### Code Style
 
-Follow the existing code style and conventions used in the project. If unsure, refer to the project's style guide.
+Follow the existing code style and conventions used in the project. 
 
 
 ### Reporting Issues
