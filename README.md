@@ -44,6 +44,7 @@ Retiremate is a retirement planning app that helps users to plan their finances 
 Retirement is the withdrawal from one's position or occupation or from one's active working life. Nowadays, most developed countries have systems to provide pensions on retirement in old age, funded by employers or the state.
 In many poorer countries, there is no support for the elderly beyond that provided through the family. Thus in order to provide a platform where people can plan their retirement beforehand for a better 2nd innings of their life, we have created **RetireMate**. 
 
+<p>This is the link to the <a href="https://github.com/kiyoshi-87/RetireMate">frontend repo.</a></p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Built with
